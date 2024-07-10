@@ -175,6 +175,8 @@ main{
     font-weight: 400;
     font-size: 16px;
     opacity: 0.7;
+    width: 852px;
+    margin: auto;
     margin-bottom: 48px;
 }
 
@@ -182,4 +184,80 @@ main{
 border: 1px solid rgba(13,19,33,20%);
 border-radius: 16px;
 padding: 32px;
+}
+
+#current{
+    text-align: center;
+    margin-bottom: 49px;
+}
+
+#current h2{
+    font-weight: 800;
+    font-size: 32px;
+    margin-bottom: 24px;
+}
+
+#current h3{
+    font-weight: 800;
+    font-size: 32px;
+    margin-bottom: 8px;
+}
+
+
+#current p{
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 24px;
+    opacity: 0.7;
+}
+#current > p{
+    margin-bottom: 48px;
+}
+#current img{
+    width: 56px;
+    margin-bottom: 24px;
+}
+#current section{
+    display: flex;
+    justify-content: space-between;
+    gap:24px
+}
+#current a{
+    font-weight: 700;
+    font-size: 16px;
+    color: #0D1321;
+}
+.card{
+    text-align: left;
+    padding: 40px;
+    border-radius: 16px;
+}
+
+.card1{
+    background: rgba(255, 76, 30, 0.05);
+}    
+.card2{
+    background: rgba(0, 76, 232, 0.05);
+}    
+
+.card3{
+    background: rgba(255, 223, 0, 0.05);
+}    
+
+.support{
+    background: url(../assets/images/handshake.jpg);
+    padding: 64px 48px;
+    margin-bottom: 80px;
+}   
+.support h2{
+    font-weight: 800;
+    font-size: 32px;
+    margin-bottom: 24px;
+    color: white;
+}
+
+.support-content{
+    text-align: center;
+    background-size: contain;
+    position: relative;
 }
