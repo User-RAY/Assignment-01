@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.azeret-mono-normal {
+  font-family: "Azeret Mono", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+
+.btn{
+ 
+    border: 1px solid rgb(23, 27, 36);
+    border-radius: 8px;
+    padding: 17px 24px;
+    background-color: white;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+
+
+
+header{
+    margin-top: 38px;
+}
+
+
+
+nav{
+   
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 30px;
+}
+nav h2{
+   font-weight: 800;
+   font-size: 28;
+}
+
+nav button{
+    opacity: 0.8;
+}
+
+
+
+
+.banner{
+    background-image: url(../assets/images/Hero-bg.png);
+    margin-bottom: 74px;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 221px; 
+    text-align: center;
+}
+.box > img{
+    margin-top: 26px;
+    margin-bottom: 32px;
+}
+
+.box > h1{
+    font-weight: 800;
+    font-size: 48px;
+    margin-bottom: 24px;
+}
+
+.box > p{
+    font-weight: 400;
+    font-size: 16px;
+    opacity: 0.7;
+    margin-bottom: 32px;
+}
+
+.box button{
+    background-color: #0D1321;
+    color: white;
+    margin-bottom: 45px;
+}
+
+
+main{
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+    padding: 80px 97px;
+    width: 1140px;
+    margin: 0 auto;
+}
+
+#main-content{
+    text-align: center;
+}
+
+#one{
+    margin-bottom: 48px;
+}
+#one h2 {
+   font-weight: 800;
+   font-size: 32px;
+   margin-bottom: 24px;
+}
+
+#one p {
+    font-weight: 400;
+    font-size: 16px;
+    opacity: 0.7;
+ }
+ 
+.LR{
+    display: flex;
+    justify-content: space-between;
+    padding: 48px;
+}
+.LR div{
+    width: 477px;
+}
+
+.LR div h2{
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+.LR div p{
+    font-weight: 400;
+    font-size: 24px;
+    margin-bottom: 16px;
+}
