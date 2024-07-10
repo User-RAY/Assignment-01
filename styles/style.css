@@ -160,7 +160,26 @@ main{
     background: linear-gradient(to left, rgba(255,255,255,100%),rgba(255,255,255,0%));
 }
 
+#inspire {
+    text-align: center;
+    margin-bottom: 151px;
+}
+
 #inspire h2{
     font-weight: 800;
     font-size: 32px;
+    margin-bottom: 24px;
+}
+
+#inspire p{
+    font-weight: 400;
+    font-size: 16px;
+    opacity: 0.7;
+    margin-bottom: 48px;
+}
+
+#inspire #vid{
+border: 1px solid rgba(13,19,33,20%);
+border-radius: 16px;
+padding: 32px;
 }
