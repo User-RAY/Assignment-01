@@ -92,15 +92,20 @@ nav button{
 
 
 main{
-    border-radius: 16px;
-    background: rgba(13, 19, 33, 0.02);
-    padding: 80px 97px;
     width: 1140px;
     margin: 0 auto;
 }
 
+#dev{
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+    padding: 80px 97px;
+    margin-bottom: 90px;
+}
+
 #main-content{
     text-align: center;
+    margin-bottom: 90px;
 }
 
 #one{
@@ -122,19 +127,40 @@ main{
     display: flex;
     justify-content: space-between;
     padding: 48px;
+    background: linear-gradient(to right, rgba(255,255,255,100%),rgba(255,255,255,0%));
 }
-.LR div{
+.LR div, .RL div{
     width: 477px;
+    text-align: left;
 }
 
-.LR div h2{
+.LR div h2, .RL div h2{
     font-weight: 700;
     font-size: 24px;
     margin-bottom: 16px;
 }
 
-.LR div p{
+.LR div p, .RL div p{
     font-weight: 400;
-    font-size: 24px;
-    margin-bottom: 16px;
+    font-size: 16px;
+    margin-bottom: 32px;
+    opacity: 0.7;
+}
+
+#main-content button{
+    border-radius: 0;
+    padding: 12px 20px;
+}
+
+.RL{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding: 48px;
+    background: linear-gradient(to left, rgba(255,255,255,100%),rgba(255,255,255,0%));
+}
+
+#inspire h2{
+    font-weight: 800;
+    font-size: 32px;
 }
