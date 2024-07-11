@@ -187,11 +187,17 @@ main{
 }
 
 #inspire #vid{
-border: 1px solid rgba(13,19,33,20%);
 border-radius: 16px;
-padding: 32px;
 }
 
+
+.wrap{
+    padding: 32px;
+    border-radius: 16px;
+    border: 1px solid rgba(13,19,33,20%);
+    width: max-content;
+    margin: auto;
+}
 #current{
     text-align: center;
     margin-bottom: 49px;
