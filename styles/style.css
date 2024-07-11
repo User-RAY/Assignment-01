@@ -23,6 +23,7 @@
     background-color: white;
     font-weight: 600;
     font-size: 20px;
+    cursor: pointer;
 }
 
 
@@ -88,6 +89,11 @@ nav button{
     background-color: #0D1321;
     color: white;
     margin-bottom: 45px;
+}
+
+.box a{
+    text-decoration: none;
+    color: white;
 }
 
 
@@ -281,4 +287,21 @@ padding: 32px;
     font-size: 16px;
     font-weight: 400;
     border-radius: 8px;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 150px;
+    background: rgba(13, 19, 33, 0.03);;
+}
+footer h3{
+    font-size: 20px;
+    font-weight: 600;
+}
+footer a{
+    text-decoration: none;
+}
+
+#github{
+    margin: 0px 24px;
 }
